@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.opsramp</groupId>
+    <artifactId>public-plugins</artifactId>
+    <version>10.0.0</version>
+    <packaging>pom</packaging>
+    <name>public-plugins</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>11</java.version>
+        <itom.version>10.0.0</itom.version>
+    </properties>
+    <modules>
+        <module>vmware</module>
+        <module>xen</module>
+    </modules>
+</project>
